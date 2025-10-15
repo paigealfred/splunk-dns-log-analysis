@@ -182,3 +182,46 @@ Searchable, aggregatable, analyzable
 **Query Language:** SPL  
 **Analyst:** Paige Alfred
 ```
+---
+
+## Lab Screenshots
+
+### DNS Query Analysis
+![Query Results](DNS-Query-Analysis.png)
+
+*SPL query analyzing DNS traffic for www.apple.com domain - 13,069 events*
+
+### Field Extraction Success
+![Extraction Complete](DNS-Field-Extraction-Success.png)
+
+*Successfully extracted additional fields from DNS log data*
+
+### Field Extraction Save
+![Save Extraction](DNS-Field-Extraction-Save.png)
+
+*Saving custom field extraction configuration for dnslogs sourcetype*
+
+### DNS Log Upload
+![Log Ingestion](DNS-Log-Upload.png)
+
+*Uploading DNS logs into Splunk via Add Data interface*
+
+### Select Sample Event
+![Sample Event Selection](DNS-Select-Sample-Event.png)
+
+*Selecting sample event for custom field extraction from DNS logs*
+
+### DNS Communication Patterns
+![Communication Table](DNS-Communication-Patterns.png)
+
+*Structured view of DNS communication patterns showing source IPs, destination IPs, and query counts*
+
+### Raw DNS Events
+![Raw Log Data](DNS-Raw-Events.png)
+
+*Raw DNS log events showing 422,130 events processed*
+
+### Field Validation
+![Field Validation](DNS-Field-Validation.png)
+
+*Validating extracted fields: src_ip, dst_ip, domain, ports*
