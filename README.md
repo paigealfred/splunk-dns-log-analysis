@@ -181,8 +181,6 @@ Searchable, aggregatable, analyzable
 **Platform:** Splunk Enterprise  
 **Query Language:** SPL  
 **Analyst:** Paige Alfred
-```
----
 
 ## Lab Screenshots
 
